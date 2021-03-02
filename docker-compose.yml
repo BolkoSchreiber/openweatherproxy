@@ -1,0 +1,15 @@
+version: '3.3'
+services:
+  openweatherproxy:
+    container_name: owp
+    build: ./
+    environment:
+      - OWP_OPEN_WEATHER_MAP_API_KEY=06fb9eb3cf0388648ad8ce70389080ea
+      - OWP_CITY=Duisburg
+      - OWP_CACHE_DURATION_SECONDS=3600
+      - OWP_UNITS=metric
+      - OWP_LANGUAGE=de
+      - OWP_EXCLUDE=minutely,alerts
+    ports:
+      - '3000:3000'
+    image: openweatherproxy

@@ -1,0 +1,24 @@
+{
+  "name": "openweatherproxy",
+  "version": "1.0.0",
+  "description": "Caching proxy for OpenWeatherAPI ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.bolkoschreiber.de/Lokalpatriot/openweatherproxy.git"
+  },
+  "keywords": [
+    "openweatherapi",
+    "proxy",
+    "caching"
+  ],
+  "author": "Bolko Schreiber (bolko.schreiber@gmail.com)",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}

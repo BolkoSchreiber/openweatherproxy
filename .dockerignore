@@ -1,0 +1,6 @@
+node_modules
+.git
+.vscode
+README.md
+meta.json
+cache.json
