@@ -2,8 +2,7 @@ version: '3.3'
 services:
   openweatherproxy:
     container_name: owp
-    build: ./
     env_file: .env
     ports:
       - '3000:3000'
-    image: openweatherproxy
+    image: pans0n/openweatherproxy
